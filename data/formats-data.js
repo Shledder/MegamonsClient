@@ -99,6 +99,7 @@ exports.BattleFormatsData = {
 			{"generation":3,"level":30,"moves":["morningsun","psychic","sleeppowder","aerialace"]}
 		],
 		tier: "Limbo"
+	},
 	butterfreemega: {
 		requiredItem: "Allmeganite"
 	},
