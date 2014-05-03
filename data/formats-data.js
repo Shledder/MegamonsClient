@@ -99,6 +99,8 @@ exports.BattleFormatsData = {
 			{"generation":3,"level":30,"moves":["morningsun","psychic","sleeppowder","aerialace"]}
 		],
 		tier: "Limbo"
+	butterfreemega: {
+		requiredItem: "Allmeganite"
 	},
 	weedle: {
 		viableMoves: {"bugbite":1,"stringshot":1,"poisonsting":1,"electroweb":1},
