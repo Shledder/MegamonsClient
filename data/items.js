@@ -1,7 +1,7 @@
 exports.BattleItems = {
 	"meganitez": {
-		id: "meganitez",
-		name: "Meganite Z",
+		id: "allmeganite",
+		name: "Allmeganite",
 		spritenum: 575,
 		megaStone: "Mega",
 		megaEvolves: "Abomasnow",
@@ -11,7 +11,7 @@ exports.BattleItems = {
 		},
 		num: 999,
 		gen: 6,
-		desc: "Mega-evolves Abomasnow."
+		desc: "Mega-evolves most pokemon."
 	},
 	"abomasite": {
 		id: "abomasite",
