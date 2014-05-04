@@ -277,13 +277,18 @@ var baseSpeciesChart = {
 	// others are hardcoded by ending with 'mega'
 };
 
+
+# Download all the sprites
+wget --execute="robots = off" --mirror --convert-links --no-parent http://play.pokemonshowdown.com/sprites/
+# Download all the audio
+wget --execute="robots = off" --mirror --convert-links --no-parent http://play.pokemonshowdown.com/audio/
 var Tools = {
 
 	resourcePrefix: (function() {
-		var prefix = '';
-		if (document.location.protocol === 'file:') prefix = 'http:';
-		return prefix + '//play.pokemonshowdown.com/';
-	})(),
+    var prefix = '';
+    if (document.location.protocol === 'file:') prefix = 'http:';
+    return prefix + '//play.pokemonshowdown.com/'; // this is the prefix it uses to fetch resources, like sprites
+})(),
 
 	resolveAvatar: function(avatar) {
 		var avatarnum = Number(avatar);
