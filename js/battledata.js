@@ -278,10 +278,11 @@ var baseSpeciesChart = {
 };
 
 
-# Download all the sprites
-wget --execute="robots = off" --mirror --convert-links --no-parent http://play.pokemonshowdown.com/sprites/
-# Download all the audio
-wget --execute="robots = off" --mirror --convert-links --no-parent http://play.pokemonshowdown.com/audio/
+//# Download all the sprites
+//wget --execute="robots = off" --mirror --convert-links --no-parent http://play.pokemonshowdown.com/sprites/
+//# Download all the audio
+//wget --execute="robots = off" --mirror --convert-links --no-parent http://play.pokemonshowdown.com/audio/
+
 var Tools = {
 
 	resourcePrefix: (function() {
